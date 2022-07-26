@@ -1,0 +1,89 @@
+*
+{
+  box-sizing: border-box;
+}
+body
+{
+  background-color: #F79489;
+  font-weight: bold;
+  color: black;
+}
+#quote-box
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  color: white;
+  box-shadow: 0px 0px 10px 0.1px;
+  border-radius: 4px;
+  width: 670px;
+  height: 350px;
+}
+#text
+{
+  padding: 40px 20px 10px 20px;
+  font-size: 21px;
+  text-align: center;
+  line-height: 35px;
+  /*font-weight: 550;*/
+ font-family: 'Ibarra Real Nova', serif;
+}
+#author
+{
+  font-size: 17px;
+  padding-top: 15px;
+  text-align: right;
+  padding-right: 75px;
+  /*font-weight: 700;*/
+  font-family: 'Vidaloka', serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+#tweet-quote
+{
+  position: absolute;
+  margin-left: 45px;
+  padding-top: 35px;
+  text-decoration: none;
+  /*font-weight: 500;*/
+  font-family: 'Vidaloka', serif;
+  text-transform: uppercase;
+}
+#new-quote
+{
+  margin-top: 25px;
+  margin-left: 350px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 16px;
+  /*font-weight: 550;*/
+  border-radius: 5px;
+  border-color: #F79489;
+   font-family: 'Vidaloka', serif;
+  text-transform: uppercase;
+  color: black;
+  border: none;
+  outline: none;
+}
+#new-q
+{
+  background-color: #F79489;
+  color: black;
+}
+#tweet-quote:hover
+{
+  color: black;
+}
+.rand
+{
+  color: #F79489;
+}
+#new-quote:hover
+{
+  color: white;
+  background-color: #F79489;
+}
